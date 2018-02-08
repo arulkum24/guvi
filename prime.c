@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int m,n;
+int a,n;
 printf("enter the number");
-scanf("%d",%m);
-for(n=1;n<=m;n++);
+scanf("%d",&a);
+for(n=1;n<=a;n++);
 {
-if(m%n=0)
+if(a%n==0)
 }
 printf("\nit is prime number");
 else
