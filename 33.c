@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,m,i,gcd,lcm,n1,m1;
+    int n,m,i,g,lcm,n1,m1;
     scanf("%d %d",&n,&m);
     n1=n;
     m1=m;
@@ -11,7 +11,7 @@ int main()
         gcd=i;
     }
     
-     lcm=(n1*m1)/gcd;
+     lcm=(n1*m1)/g;
      printf("%d",lcm);
      
         return 0;
